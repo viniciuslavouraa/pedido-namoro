@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Natal';
+    src: url(../fonts/SelamatPestaNatal.ttf)format('Truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root {
+    --cor01:#F2F2F2;
+    --cor02:#F2A7BB;
+    --cor03:#D9043D;
+    --cor04:#D9042B;
+    --cor05:#590E22;
+
+    --fonte-natal:'Natal', Arial, Helvetica, sans-serif;
+    --fonte-titulo:'Shadows Into Light', cursive;
+    --font-padrao: Arial, Helvetica, sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor01);
+    font-family: var(--font-padrao);
+    background-color: var(--cor03);
+}
+
+header {
+    background-image:linear-gradient(to bottom, var(--cor05), var(--cor03));
+    text-align: center;
+    padding: 20px;
+}
+
+header > h1 {
+    font: normal normal 2.6em var(--fonte-titulo);
+    color: var(--cor01);
+    text-shadow: 13px 1px 2px rgba(0, 0, 0, 0.466);
+}
+
+header > p {
+    padding-top: 20px;
+    font: normal bold 1.2em var(--fonte-titulo);
+    color: var(--cor05);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.281);
+}
+
+main {
+    min-width: 200px;
+    max-width: 1000px;
+    background-color: var(--cor01);
+    margin: 10px auto 20px auto;
+    padding: 20px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    text-align: center;
+}
+
+main h2 {
+    font: normal normal 2.2em var(--fonte-natal) ;
+}
+
+main p {
+    font: normal normal 1em var(--fonte-titulo);
+}
+
+
+
