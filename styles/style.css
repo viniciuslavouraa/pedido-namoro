@@ -50,7 +50,7 @@ header > p {
 }
 
 main {
-    min-width: 200px;
+    min-width: 300px;
     max-width: 1000px;
     background-color: var(--cor01);
     margin: 10px auto 20px auto;
@@ -71,7 +71,7 @@ main p {
 
 article > audio {
     background-image:linear-gradient(to right, #ff03469c, #a73452af);
-    width: 400px;
+    width: 250px;
     height: 35px;
     margin-top: 10px;
     padding: 7px;
