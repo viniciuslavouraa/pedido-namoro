@@ -61,7 +61,7 @@ main {
 }
 
 main h2 {
-    font: normal normal 2em var(--fonte-natal) ;
+    font: normal normal 1.8em var(--fonte-natal) ;
 }
 
 main p {
@@ -71,7 +71,7 @@ main p {
 
 article > audio {
     background-image:linear-gradient(to right, #ff03469c, #a73452af);
-    width: 250px;
+    width: 300px;
     height: 35px;
     margin-top: 10px;
     padding: 7px;
