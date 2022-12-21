@@ -64,9 +64,16 @@ main h2 {
     font: normal normal 1.8em var(--fonte-natal) ;
 }
 
+main #amor {
+    font: italic normal 1.6em var(--fonte-titulo);
+    color: var(--cor04);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
+    margin-bottom: 20px;
+}
+
 main p {
     font: normal normal 1.2em var(--fonte-titulo);
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 article > audio {
@@ -79,7 +86,14 @@ article > audio {
 
 }
 
-/* mexer CSS3 das imagens*/
+main video {
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor04));
+    width: 100%;
+    height: 380px;
+    border-radius: 20px;
+}
+
+
 
 
 
