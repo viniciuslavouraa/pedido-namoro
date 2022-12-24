@@ -101,6 +101,26 @@ main img {
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.199);
 }
 
+aside > h2 {
+    display: block;
+    background-image: linear-gradient(to right, transparent, rgba(255, 0, 0, 0.795));
+    font: normal normal 1.5em var(--fonte-titulo);
+    padding: 5px;
+    border-radius: 20px;
+
+}
+aside > a {
+    font: normal bold 1em var(--fonte-titulo);
+    text-decoration: none;
+    color:var(--cor04);
+
+}
+
+aside > a:hover {
+    background-color: var(--cor02);
+    padding: 5px 8px 5px 8px;
+}
+
 footer {
     background-color: var(--cor05);
     padding-top: 15px;
